@@ -1,4 +1,4 @@
-package com.pyrocorp.shared;
+package eu.pyrocorp.shared;
 
 /**
  * Created by Michal Hubálek.

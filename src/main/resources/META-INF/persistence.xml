@@ -1,0 +1,29 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+
+    <persistence-unit name="PERSISTENCE">
+        <description>Hibernate JPA Configuration Example</description>
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://slon.felk.cvut.cz:5432/db18_hubalmic"/>
+            <property name="javax.persistence.jdbc.user" value="db18_hubalmic"/>
+            <property name="javax.persistence.jdbc.password" value="Ku3a7v"/>
+
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="false"/>
+            <property name="hibernate.use_sql_comments" value="false"/>
+            <property name="hibernate.jdbc.time_zone" value="UTC"/>
+            <property name="hibernate.jdbc.wrap_result_sets" value="false"/>
+            <property name="hibernate.hibernate.cache.use_query_cache" value="true"/>
+            <!--<property name="hibernate.hbm2ddl.auto" value="update"/>-->
+            <property name="hibernate.generate_statistics" value="true"/>
+        </properties>
+
+    </persistence-unit>
+
+</persistence>

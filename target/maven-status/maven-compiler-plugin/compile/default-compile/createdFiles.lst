@@ -1,1 +1,9 @@
-com\pyrocorp\view\Start.class
+eu\pyrocorp\Start.class
+eu\pyrocorp\model\market\MarketStateRepository.class
+eu\pyrocorp\controller\market\MarketStateController.class
+eu\pyrocorp\shared\market\MarketStateDto.class
+eu\pyrocorp\model\market\MarketState.class
+eu\pyrocorp\service\market\MarketStateService.class
+eu\pyrocorp\view\MainWindow.class
+eu\pyrocorp\model\market\MarketStateKey.class
+eu\pyrocorp\shared\Constants.class
